@@ -18,5 +18,4 @@ fun main() {
     //!! как save call но выбрасывает NPE
     val t = b!!.length
     println(t)
-
 }
