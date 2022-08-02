@@ -12,6 +12,5 @@ fun testWhen(input: Any)
         in 10..20 -> println("От 10 до 20")
         is String -> println("Строка ${input.length}")//котлин берет на себя downcasting ( (String)object)
         else -> println("Что-то еще")
-
     }
 }
